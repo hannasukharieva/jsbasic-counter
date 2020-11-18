@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.counter__number {
+  font-size: 200px;
+  color: red;
+}
+
+.counter__button {
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */

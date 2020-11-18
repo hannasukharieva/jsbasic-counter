@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+
+  &__number {
+    font-size: 200px;
+    color: red;
+  }
+
+  &__button {
+    padding: 20px;
+  }
+}
